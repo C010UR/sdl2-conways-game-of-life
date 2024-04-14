@@ -4,6 +4,10 @@
 
 This is SDL2 implementation of the Conway's game of life
 
+![image](https://github.com/C010UR/sdl2-conways-game-of-life/assets/95462776/e9896ef7-bf68-46e3-be99-48167885a880)
+
+https://github.com/C010UR/sdl2-conways-game-of-life/assets/95462776/27a651f3-d1c1-4214-99f8-61cbb33f2903
+
 This project is built with
 <img src="https://mesonbuild.com/assets/images/meson_logo.png" height="16px">
 [Meson](https://mesonbuild.com/). To install meson you can visit their [GitHub page](https://github.com/mesonbuild/meson/tree/master/docs).

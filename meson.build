@@ -14,9 +14,9 @@ add_global_arguments('-Wno-unused', language: 'cpp')
 
 incdir = include_directories('include')
 
-sdl2_dep = dependency('sdl2', required: true)
-sdl2_ttf_dep = dependency('sdl2_ttf', required: true)
-sdl2_gfx_dep = dependency('sdl2_gfx', required: true)
+sdl2_dep = dependency('SDL2', required: true)
+sdl2_ttf_dep = dependency('SDL2_ttf', required: true)
+sdl2_gfx_dep = dependency('SDL2_gfx', required: true)
 
 # this shit is so cursed, how can i include them in the install dir???
 install_data('lib/SDL2.dll', install_dir: meson.current_build_dir())
